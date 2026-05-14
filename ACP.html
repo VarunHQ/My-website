@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - ACP </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            color: lightblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-family: lato, sans-serif;
+            font-weight: 400;
+            line-height: 1.8cm;
+            color: #777;
+            background-color: darkblue;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            color: banana;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #ffe066;
+            color: black;
+        }
+
+        .pimg1,
+        pimg2,
+        .pimg3 {
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .pimg1 {
+            background-image: url(image1.jpg);
+            min-height: 100%;
+        }
+
+        .pimg2 {
+            background-image: url(image2.jpg);
+            min-height: 400%;
+        }
+
+        .pimg3 {
+            background-image: url(image3.jpg);
+            min-height: 400%;
+        }
+
+        .section {
+            text-align: center;
+            padding: 50px 80px;
+        }
+
+        .section-light {
+            backgroud-color: #f4f4f4;
+            color: #666;
+        }
+
+        .section-dark {
+            background-color: #282e34;
+            color: #ddd;
+        }
+
+        .ptext {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        .ptext .border {
+            background-color: #111;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .ptext .border.trans {
+            background-color: transparent;
+        }
+
+        @media(max-width: 568px) {
+
+            .pimg1,
+            .pimg2,
+            .pimg3 {
+                background-attachment: scroll;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Gallery</a>
+    </div><br>
+    <span class="border-trans" style="font-size: 40px;">
+        <center><b>Welcome all to My Website</b></center>
+    </span><br>
+    <section>
+        <h2>Chinese Culture</h2>
+        <p>Chinese culture is one of the world's oldest and most complex cultures, with a history spanning over 5,000
+            years. It encompasses a wide range of traditions, customs, beliefs, and practices that have evolved over
+            time. Chinese culture is known for its rich heritage in art, literature, philosophy, and cuisine. It has
+            been influenced by various dynasties, religions, and neighboring cultures throughout history. Some key
+            aspects of Chinese culture include Confucianism, Taoism, Buddhism, traditional festivals such as the Lunar
+            New Year, and the importance of family and respect for elders.</p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">Image one Text</span>
+        </div>
+    </div>
+    <section>
+        <h2>Indian Culture</h2>
+        <p>Indian culture is one of the world's most diverse and ancient civilizations, with a history spanning over
+            4,000 years. It is characterized by its diversity in religion, philosophy, art, music, and cuisine. Indian
+            culture is deeply rooted in Hinduism, Buddhism, Jainism, and Sikhism, each contributing unique perspectives
+            and traditions. The culture is known for its classical arts including dance forms like Bharatanatyam and
+            Kathak, classical music traditions, intricate architecture seen in temples and monuments, and the
+            philosophical teachings of the Vedas and Upanishads. Family values, respect for elders, and spirituality
+            remain central to Indian society.</p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">Image two Text</span>
+        </div>
+    </div>
+    <section>
+        <h2>Japanese Culture</h2>
+        <p>Japanese culture is a unique blend of ancient traditions and modern innovation, developed over more than
+            2,000 years. It is characterized by refined aesthetics, discipline, and respect for nature. Japanese culture
+            encompasses traditional arts such as tea ceremony, calligraphy, flower arrangement (ikebana), and martial
+            arts like karate and judo. The culture values harmony, balance, and the concept of "wabi-sabi" which finds
+            beauty in imperfection. Traditional festivals such as Sakura matsuri and Tanabata, along with the importance
+            of family honor and social harmony, remain integral to Japanese society. Cuisine, architecture, and
+            craftsmanship reflect the deep appreciation for quality and detail.</p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">Image three Text</span>
+        </div>
+    </div>
+    <section>
+        <h2>African Culture</h2>
+        <p>African culture is incredibly diverse, representing a rich tapestry of traditions from over 50 countries and
+            thousands of ethnic groups. With a history spanning thousands of years, African culture is deeply connected
+            to community, storytelling, music, and dance. It encompasses a wide range of spiritual beliefs, artistic
+            expressions, and social practices that have been passed down through generations. African culture is known
+            for its vibrant music and rhythmic patterns, intricate beadwork and textiles, oral traditions and folklore,
+            and the importance of community and communal celebrations. Ubuntu philosophy, emphasizing human
+            interconnectedness, is central to many African cultures. Family bonds, respect for ancestors, and
+            connections to the land are fundamental values.</p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">Image four Text</span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <span>All &copy; rights reserved by Varun Sathish</span>
+    </section>
+</body>
+
+</html>
