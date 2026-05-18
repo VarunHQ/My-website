@@ -107,6 +107,54 @@
             color: #ddd;
         }
 
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact-form fieldset {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .contact-form input[type="submit"] {
+            margin-top: 16px;
+            padding: 12px 22px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
         .ptext {
             position: absolute;
             top: 50%;
@@ -143,7 +191,7 @@
     <div class="topnav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#contact">Gallery</a>
+        <a href="#contact">Contact Us</a>
     </div><br>
     <span class="border-trans" style="font-size: 40px;">
         <center><b>Welcome all to My Website</b></center>
@@ -210,6 +258,25 @@
     </div>
     <section class="section section-dark">
         <span>All &copy; rights reserved by Varun Sathish</span>
+    </section>
+    <section id="contact" class="section section-light">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mqejkyer" method="post">
+                <fieldset>
+                    <legend>Send us a message</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <label for="age">Age:</label>
+                    <input type="text" id="age" name="age" placeholder="Your age">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
     </section>
 </body>
 
